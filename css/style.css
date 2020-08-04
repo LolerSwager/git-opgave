@@ -1,55 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    border: solid black 1px;
 }
 
-main{
+.product-line{
     display: grid;
-    grid-template-areas: 
-    "header header"
-    "nav nav"
-    "hero hero"
-    "ph1 ph2"
-    "ph3 ph3"
-    "ph4 ph5"
-    "footer footer";
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 1em;
-    padding: 1em;
+    margin: 1em;
 }
 
-header{
-   grid-area: header;
-}
-
-.nav{
-    grid-area: nav;
-}
-
-.hero{
-    grid-area: hero;
-}
-
-.ph1{
-    grid-area: ph1;
-}
-
-.ph2{
-    grid-area: ph2;
-}
-
-.ph3{
-    grid-area: ph3;
-}
-
-.ph4{
-    grid-area: ph4;
-}
-
-.ph5{
-    grid-area: ph5;
+.product-line img{
+    width: 100%;
 }
 
 footer{
-    grid-area: footer;
+    background-color: brown;
 }
