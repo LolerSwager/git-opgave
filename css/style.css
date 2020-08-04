@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    border: solid black 1px;
 }
 
-body{
+main{
     display: grid;
     grid-template-areas: 
     "header header"
@@ -12,14 +13,16 @@ body{
     "ph1 ph2"
     "ph3 ph3"
     "ph4 ph5"
-    "footer";
+    "footer footer";
+    grid-gap: 1em;
+    padding: 1em;
 }
 
 header{
    grid-area: header;
 }
 
-nav{
+.nav{
     grid-area: nav;
 }
 
@@ -29,6 +32,22 @@ nav{
 
 .ph1{
     grid-area: ph1;
+}
+
+.ph2{
+    grid-area: ph2;
+}
+
+.ph3{
+    grid-area: ph3;
+}
+
+.ph4{
+    grid-area: ph4;
+}
+
+.ph5{
+    grid-area: ph5;
 }
 
 footer{
