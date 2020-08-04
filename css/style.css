@@ -97,6 +97,10 @@ header ul, a {
     grid-area: p3;
 }
 
+.p03 {
+    display: none;
+}
+
 .p4{
     grid-area: p4;
 }
@@ -165,6 +169,15 @@ footer a{
         grid-template-rows: auto auto;
         text-align: center;
         margin-top: 1.5rem;
+    }
+
+    .p3 {
+        display: none;
+    }
+
+    .p03 {
+        display: block;
+        grid-area: p3;
     }
 
     .product-line{
