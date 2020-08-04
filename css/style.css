@@ -2,3 +2,35 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "hero hero"
+    "ph1 ph2"
+    "ph3 ph3"
+    "ph4 ph5"
+    "footer";
+}
+
+header{
+   grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+.hero{
+    grid-area: hero;
+}
+
+.ph1{
+    grid-area: ph1;
+}
+
+footer{
+    grid-area: footer;
+}
