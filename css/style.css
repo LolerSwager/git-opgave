@@ -45,12 +45,30 @@ header ul,a{
 .product-line{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 1em;
-    margin: 1em;
+    grid-gap: 4em;
+    margin: 4em;
 }
 
 .product-line img{
     width: 100%;
+}
+
+.product-line article{
+    box-shadow: 0px 0px 50px -35px rgba(0,0,0,0.75);
+}
+
+.product-line div{
+    background-color: orange;
+    color: #000000;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.product-line a{
+    margin: 0;
 }
 
 footer{
