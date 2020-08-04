@@ -123,32 +123,35 @@ header ul, a {
     font-size: 1.2em;
 }
 
-.product-line a{
-    margin: 0;
-}
+.product-line a{ margin: 0; }
 
 footer{
+    width: 100%;
+    padding: 2rem;
     background-color: black;
+}
+
+.footer_article {
+    width: 80%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
-
-footer ul{
-    display: grid;
-    margin: 2em;
     justify-content: space-between; 
-    margin-left: 120px;;
 }
 
-footer h3{
+footer h3 { 
     color: white;
-    margin: 10px;
-    margin-right: 0px;
+    margin-bottom: 1rem;
 }
 
-footer a{
-    margin: 5px;
+footer ul { list-style-type: none; }
+
+footer li {
+    display: flex;
+    justify-content: flex-start;
 }
+
+footer a { margin: 1rem 0; }
 
 @media (max-width: 767px) {
     .hero-arc h2 {
@@ -187,8 +190,12 @@ footer a{
         "p4 p5";
     }
 
-    footer ul {
-        margin-left: 2em;
+    .footer_article {
+        width: 100%;
+    }
+
+    footer h3 {
+        font-size: 1rem;
     }
 }
 
