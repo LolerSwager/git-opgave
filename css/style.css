@@ -173,5 +173,9 @@ footer a{
         "p3 p3"
         "p4 p5";
     }
+
+    footer ul {
+        margin-left: 2em;
+    }
 }
 
