@@ -36,6 +36,7 @@ header ul, a {
     justify-content: flex-end;
 }
 
+/* cover billed */
 .hero-arc {
     width: 100%;
     position: absolute;
@@ -72,6 +73,7 @@ header ul, a {
     height: 100vh;
 }
 
+/* produkter */
 .product-line{
     display: grid;
     grid-template-areas: 
@@ -126,6 +128,8 @@ header ul, a {
     margin: 0;
 }
 
+
+/* footer */
 footer{
     background-color: black;
     display: grid;
@@ -149,6 +153,7 @@ footer a{
     margin: 5px;
 }
 
+/* mobil størlse */
 @media (max-width: 767px) {
     .hero img{
         object-fit: cover;
