@@ -131,11 +131,10 @@ footer{
 }
 
 footer ul{
-    width: 100%;
     display: grid;
-    margin: 10px;
+    margin: 2em;
     justify-content: space-between;
-    margin-left: 100px;
+    margin-left: ;
 }
 
 footer h3{
