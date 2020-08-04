@@ -54,5 +54,25 @@ header ul,a{
 }
 
 footer{
-    background-color: brown;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer ul{
+    width: 100%;
+    display: grid;
+    margin: 10px;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+footer h3{
+    color: white;
+    margin: 10px;
+    margin-right: 0px;
+}
+
+footer a{
+    margin: 5px;
 }
