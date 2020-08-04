@@ -68,7 +68,7 @@ header ul, a {
 }
 
 .hero {
-    background-image: url('/img/bg.jpg');
+    background-image: url('../img/bg.jpg');
     width: 100%;
     height: 100vh;
 }
@@ -133,8 +133,8 @@ footer{
 footer ul{
     display: grid;
     margin: 2em;
-    justify-content: space-between;
-    margin-left: ;
+    justify-content: space-between; 
+    margin-left: 120px;;
 }
 
 footer h3{
