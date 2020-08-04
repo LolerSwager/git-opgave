@@ -18,13 +18,9 @@ body {
 .container header {
     width: 80%;
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr;
     margin: 0 auto;
     align-items: center;
-}
-
-ion-icon {
-    display: none;
 }
 
 header h2 {
@@ -84,6 +80,18 @@ header ul, a {
 
     .hero-arc button {
         top: 200%;
+    }
+
+    header ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container header {
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
+        text-align: center;
+        margin-top: 1.5rem;
     }
 }
 
