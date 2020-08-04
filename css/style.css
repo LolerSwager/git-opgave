@@ -68,6 +68,10 @@ header ul, a {
     transform: translate(-50%, -50%);
 }
 
+.hero-arc button:hover{
+    background-color: rgb(218, 141, 0);
+}
+
 .hero img{
     width: 100%;
     height: 100vh;
@@ -122,6 +126,10 @@ header ul, a {
     text-align: center;
     font-weight: bold;
     font-size: 1.2em;
+}
+
+.product-line div:hover{
+    background-color: rgb(218, 141, 0);
 }
 
 .product-line a{
