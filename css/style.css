@@ -125,23 +125,20 @@ footer{
 }
 
 .footer_article {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between; 
+    grid-template-columns: auto 1fr;
+    grid-gap: 30%;
 }
 
 footer h3{
     color: orange;
-    margin: 10px;
-    margin-right: 0px;
-    margin-left: 3px;
+    margin-bottom: .5rem;
 }
 
 footer ul {
     list-style-type: none;
-    margin: auto;
     }
 
 footer li {
@@ -154,7 +151,6 @@ footer li {
 footer a {
     text-decoration: none;
     color: white;
-    margin: 3px;
 }
 
 /* mobil størlse */
@@ -209,6 +205,14 @@ footer a {
 
     footer h3 {
         font-size: 1rem;
+    }
+
+    .footer_article {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-gap: 13%;
     }
 }
 
