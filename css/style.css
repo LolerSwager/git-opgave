@@ -36,11 +36,11 @@ header ul, a {
     justify-content: flex-end;
 }
 
+/* cover billed */
 .hero-arc {
-    width: 100%;
     position: absolute;
-    top: 45%;
-    left: 50%;
+    top: 85%;
+    left: 33%;
     transform: translate(-50%, -50%);
     display: grid;
     grid-template-rows: auto auto;
@@ -53,26 +53,23 @@ header ul, a {
 }
 
 .hero-arc button {
-    width: 20%;
-    padding: .5rem 1rem;
+    width: 10%;
+    padding: 1rem 1rem;
     background-color: #FFAD03;
-    color: white;
+    color: black;
+    font-size: 1rem;
     font-weight: 700;
     border: none;
     cursor: pointer;
     outline: none;
-    position: absolute;
-    top: 130%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
-.hero {
-    background-image: url('../img/bg.jpg');
+.hero img{
     width: 100%;
     height: 100vh;
 }
 
+/* produkter */
 .product-line{
     display: grid;
     grid-template-areas: 
@@ -125,6 +122,8 @@ header ul, a {
 
 .product-line a{ margin: 0; }
 
+
+/* footer */
 footer{
     width: 100%;
     padding: 2rem;
@@ -151,9 +150,13 @@ footer li {
     justify-content: flex-start;
 }
 
-footer a { margin: 1rem 0; }
-
+/* mobil størlse */
 @media (max-width: 767px) {
+    .hero img{
+        object-fit: cover;
+        object-position: 65%;
+    }
+    
     .hero-arc h2 {
         font-size: 2rem;
     }
@@ -172,6 +175,7 @@ footer a { margin: 1rem 0; }
         grid-template-rows: auto auto;
         text-align: center;
         margin-top: 1.5rem;
+
     }
 
     .p3 {
