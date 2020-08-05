@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <section class="hero">
+        <div class="container">          
+            <header>
+                <a href="index.html"><h2>OUTDOOR KING</h2></a>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        </section>
+        
+        <form id="form" class="form" method="GET">
+
+            <!-- Grid form container -->
+                <div class="form-contianer">
+                <!--  input -->
+                <h3 class="form-title">Contact Us</h3>
+                    <div class="field">
+                        <input type="text" id="name" class="input" placeholder=" " />
+                        <label for="name" class="label">Name</label>
+                    </div>
+                <!-- Email input -->
+                    <div class="field">
+                        <input type="text" id="email" class="input" placeholder=" " />
+                        <label for="email" class="label">Email</label>
+                        <div id="emailError">*Email must contain a @ and a dot*</div>
+                    </div>
+                <!-- Telephone input -->
+                    <div class="field">
+                        <input type="telephone" id="telephone" class="input" placeholder=" " />
+                        <label for="password" class="label">Phone number</label>
+                    </div>
+                <!-- Address input -->
+                <div class="field">
+                    <input type="address" id="address" class="input" placeholder=" " />
+                    <label for="password" class="label">Address</label>
+                </div>
+                <!-- Form-container div ending -->
+                </div>
+            <!-- Submit buttons -->
+                <div class="buttons">
+                    <button type="submit" id="button-submit">Send</button>
+                    <button type="submit" id="button-cancel">Cancel</button>
+                </div>
+            </form>
+
+    </main>
+    <footer id="contact-footer">
+        <article class="footer_article">
+            <ul>
+                <h3>Outdoor King</h3>
+                <li>www.outdoorking.com</li>
+                <li>flamingovej 214</li>
+                <li>+45 420 666 69</li>
+            </ul>
+            <ul>
+                <h3>Links</h3>
+                <li><a href="#">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </article>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
