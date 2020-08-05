@@ -109,6 +109,10 @@ header a {
     font-size: 1.2em;
 }
 
+.product-line a{
+    text-decoration: none;
+}
+
 .product-line div:hover{
     background-color: rgb(218, 141, 0);
 }
@@ -135,11 +139,16 @@ footer h3{
     margin-left: 3px;
 }
 
-footer ul { list-style-type: none; }
+footer ul {
+    list-style-type: none;
+    margin: auto;
+    }
 
 footer li {
     display: flex;
     justify-content: flex-start;
+    color: white;
+    margin: 0 0 0.5em 0;
 }
 
 footer a {
