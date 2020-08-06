@@ -306,7 +306,7 @@ button:hover {
     margin-bottom: 5em;
 }
 .tasker>*{
-    width: 23%;
+    width: 24%;
 }
 
 .tasker div img {
@@ -342,7 +342,7 @@ div> ul li{
         text-align: center;
     }
     .tasker>*{
-        width: 44%;
+        width: 49%;
         margin-bottom: 5em;
     }
 }
@@ -427,9 +427,9 @@ div> ul li{
     }
     
     .tasker>*{
-        width: 44%;
+        width: 49%;
         margin-bottom: 5em;
-        margin-left: 5%;
+        /* margin-left: 5%; */
     }
 
     .koeb-link{
