@@ -332,6 +332,9 @@ button:hover {
 #cta-product {
     background-color: #FFA500;
     padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tasker div img {
@@ -367,7 +370,7 @@ div> ul li{
     }
     .tasker>*{
         width: 49%;
-        margin-bottom: 5em;
+        /* margin-bottom: 5em; */
     }
 }
 .gamle-pris {
@@ -389,7 +392,7 @@ div> ul li{
     font-size: larger;
 }
 .koeb-link{
-    margin-left: 39%;
+    /* margin-left: 39%; */
     text-decoration: none;
     color: #FFA500;
     background-color:black ;
@@ -455,7 +458,7 @@ div> ul li{
     
     .tasker>*{
         width: 49%;
-        margin-bottom: 5em;
+        /* margin-bottom: 5em; */
         /* margin-left: 5%; */
     }
 
