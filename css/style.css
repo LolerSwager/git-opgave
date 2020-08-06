@@ -294,6 +294,7 @@ button:hover {
 #product-container {
     display: grid;
     grid-template-columns: 20% 80%;
+    min-height: 900px;
 }
 
 .tasker{
@@ -305,7 +306,7 @@ button:hover {
     margin-bottom: 5em;
 }
 .tasker>*{
-    width: 24%;
+    width: 23%;
 }
 
 .tasker div img {
@@ -339,7 +340,7 @@ div> ul li{
         text-align: center;
     }
     .tasker>*{
-        width: 48%;
+        width: 44%;
         margin-bottom: 5em;
     }
 }
