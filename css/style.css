@@ -332,6 +332,25 @@ button:hover {
 div> ul li{
     cursor: pointer;
 }
+.gamle-pris {
+    text-decoration: line-through;
+}
+.produkt-priser {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5%;
+    margin-left: 25%;
+}
+.koeb-link{
+    margin-left: 43%;
+    text-decoration: none;
+    color: black;
+    background-color:#FFA500 ;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
 /*----------------------------------------- MOBILE  -----------------------------------------*/
 @media (max-width: 1025px) {
     .hero img{
@@ -494,12 +513,12 @@ div> ul li{
                             position: relative;
                     }
                     #button-submit {
-                        border-color: orange;
+                        border-color: #FFA500;
                     }
                     #button-submit:active,
                     #button-submit:hover {
                     /*Styling*/
-                    background-color: orange;
+                    background-color: #FFA500;
                     color: #FCFCFC;
                     }
                     
