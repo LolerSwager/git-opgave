@@ -348,20 +348,36 @@ div> ul li{
 }
 .produkt-priser {
     display: grid;
-    grid-template-columns: 50% 50%;
-    margin: 5%;
+    grid-template-columns: auto;
+    margin: 10%;
+    margin-left: 40%;
+    font-size: larger;
+}
+.produkt-priser-salg {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10%;
     margin-left: 25%;
+    font-size: larger;
 }
 .koeb-link{
-    margin-left: 43%;
+    margin-left: 40%;
     text-decoration: none;
     color: black;
     background-color:#FFA500 ;
-    padding: 5px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
 }
 
+.koeb-link:hover {
+    color: #FFA500;
+    background-color: black;
+}
+.taske ,.hylster, .vest {
+    margin: 5px;
+    margin-top: 50px;
+}
 /*----------------------------------------- MOBILE  -----------------------------------------*/
 @media (max-width: 1025px) {
     .hero img{
