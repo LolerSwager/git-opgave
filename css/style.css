@@ -372,4 +372,23 @@ button:hover {
 .hylster{
     height: 210px;
 }
-
+#produkt-kategori{
+    background-color: #000;
+    width: 200px; 
+    height: 180px;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding: 1em;
+    color: white;
+   
+}
+#produkt-kategori li{
+    margin-top: 1em;
+    list-style-type: none;
+}
+#h3-produkt{
+    color: #FFA500;
+}
+div> ul li{
+    cursor: pointer;
+}
