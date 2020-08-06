@@ -311,7 +311,12 @@ button:hover {
     flex-direction: column;
     justify-content: space-between;
 }
-
+.produkt-titler {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 30px;
+}
 #cta-product {
     background-color: #FFA500;
     padding-bottom: 1rem;
@@ -355,23 +360,24 @@ div> ul li{
 }
 .gamle-pris {
     text-decoration: line-through;
+    padding-right: 30px;
 }
 .produkt-priser {
     display: grid;
     grid-template-columns: auto;
-    margin: 10%;
-    margin-left: 40%;
+    margin-bottom: 5%;
+    justify-content: center;
     font-size: larger;
 }
 .produkt-priser-salg {
     display: grid;
     grid-template-columns: auto auto;
-    margin: 10%;
-    margin-left: 25%;
+    margin-bottom: 5%;
+    justify-content: center;
     font-size: larger;
 }
 .koeb-link{
-    margin-left: 40%;
+    margin-left: 39%;
     text-decoration: none;
     color: #FFA500;
     background-color:black ;
@@ -444,8 +450,8 @@ div> ul li{
     .koeb-link{
         margin-left: 5%;
         text-decoration: none;
-        color: black;
-        background-color:#FFA500 ;
+        color: #FFA500;
+        background-color:black ;
         padding: 10px;
         justify-content: center;
         align-items: center;
