@@ -332,6 +332,17 @@ button:hover {
 div> ul li{
     cursor: pointer;
 }
+@media screen and (max-width:768px){
+    #product-container {
+        display: grid;
+        grid-template-columns:100%; 
+        text-align: center;
+    }
+    .tasker>*{
+        width: 48%;
+        margin-bottom: 5em;
+    }
+}
 .gamle-pris {
     text-decoration: line-through;
 }
