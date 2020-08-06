@@ -177,13 +177,12 @@ a:hover{
     box-sizing: border-box;
 }
 .form-title {
-    margin-left: 25%;
     font-size: 38px;
-    margin-bottom: 10%;
+    margin-bottom: 31%;
 }
 #form {
     /*Styling*/
-        width: 35rem;
+        width: 55rem;
         height: auto;
         padding: 3rem;
         background-color: #FCFCFC;
@@ -192,7 +191,7 @@ a:hover{
         /*Positioning box*/
             position: relative;
             top: 50px;
-            left: 30%;
+            left: 18%;
             
     /*Placemet*/
         /*Flex*/
@@ -201,6 +200,19 @@ a:hover{
             align-items: center;
     }
 
+    .form-container {
+        display: grid;
+        grid-template-columns: 50% 50% ;
+    }
+    .form-1 {
+        margin: 5%;
+        
+    }
+
+    .form-2 {
+        margin: 5%;
+        margin-top: 44%;
+    }
 .field {
 /*Styling*/
     width: 100%;
@@ -270,7 +282,7 @@ a:hover{
                     outline: none;
                     border-radius: 5px;
                     cursor: pointer;
-                    left: 15%;
+                    left: 60%;
                 /*Placemet*/
                     /*Positioning box*/
                         position: relative;
@@ -488,13 +500,12 @@ div> ul li{
         grid-gap: 13%;
     }
     .form-title {
-        margin-left: 15%;
         font-size: 24px;
         margin-bottom: 15%;
     }
     #form {
         /*Styling*/
-            width: 80%;
+            width: 70%;
             height: auto;
             padding: 3rem;
             background-color: #FCFCFC;
@@ -503,7 +514,7 @@ div> ul li{
             /*Positioning box*/
                 position: relative;
                 top: 50px;
-                left: 10%;
+                left: 15%;
                 
         /*Placemet*/
             /*Flex*/
@@ -511,7 +522,19 @@ div> ul li{
                 justify-content: center;
                 align-items: center;
         }
-    
+        .form-container {
+            display: grid;
+            grid-template-columns: auto ;
+        }
+        .form-1 {
+            margin: 0;
+            margin-left: 5%;
+        }
+        .form-2 {
+            margin: 0;
+            margin-left: 5%;
+            width: 100px;
+        }
     .field {
     /*Styling*/
         width: 100%;
@@ -581,7 +604,7 @@ div> ul li{
                         outline: none;
                         border-radius: 5px;
                         cursor: pointer;
-                        left: 7%;
+                        left: 10%;
                     /*Placemet*/
                         /*Positioning box*/
                             position: relative;
