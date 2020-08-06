@@ -183,7 +183,7 @@ a:hover{
 }
 #form {
     /*Styling*/
-        width: 35rem;
+        width: 55rem;
         height: auto;
         padding: 3rem;
         background-color: #FCFCFC;
@@ -212,7 +212,7 @@ a:hover{
 
     .form-2 {
         margin: 5%;
-        margin-top: 45%;
+        margin-top: 44%;
     }
 .field {
 /*Styling*/
