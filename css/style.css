@@ -312,9 +312,8 @@ button:hover {
 .tasker{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 1em;
-    margin-right: 2em;
-    margin-bottom: 5em;
+    padding: 1rem;
+    padding-top: 0;
 }
 .tasker>*{
     width: 24%;
