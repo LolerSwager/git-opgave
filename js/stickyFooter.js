@@ -1,8 +1,8 @@
-function setBodyMargin () {
+function setBodyMarginBottom () {
     let footer = document.querySelector('footer').clientHeight;
     let body = document.querySelector('body');
-    body.style.margin = '0 0 ' + footer + 'px';
+    body.style.marginBottom = footer + 'px';
 }
 
-window.addEventListener('load', setBodyMargin);
-window.addEventListener('resize', setBodyMargin);
+window.addEventListener('load', setBodyMarginBottom);
+window.addEventListener('resize', setBodyMarginBottom);
