@@ -355,23 +355,19 @@ button:hover {
     color: #FCFCFC;
 }
 .tasker{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    row-gap: 10em;
-    column-gap: 1em;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 5em;
     margin-left: 10em;
+    margin-right: 2em;
+    margin-bottom: 5em;
+    justify-content: space-between;
 }
-.taske{
-    height: 210px;
-    
+.tasker>*{
+    width: 24%;
+    border-bottom: 1px solid black;
 }
-.vest{
-    height: 210px;
-}
-.hylster{
-    height: 210px;
-}
+
 #produkt-kategori{
     background-color: #000;
     width: 200px; 
