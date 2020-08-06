@@ -14,3 +14,7 @@ section article p {
     /* display: none; */
     margin: 0;
 }
+
+.hide .produkt-priser-salg, .hide a {
+    display: none;
+}
