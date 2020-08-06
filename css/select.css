@@ -1,5 +1,6 @@
 .tasker > * {
     transition: ease 0.5s;
+    margin-right: 0.5%;
 }
 
 section article p {

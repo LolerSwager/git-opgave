@@ -354,26 +354,30 @@ button:hover {
     background-color: #000;
     color: #FCFCFC;
 }
+
+#product-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
 .tasker{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5em;
-    margin-left: 10em;
+    margin-top: 1em;
+    margin-left: 1em;
     margin-right: 2em;
     margin-bottom: 5em;
-    justify-content: space-between;
 }
 .tasker>*{
     width: 24%;
-    border-bottom: 1px solid black;
+}
+
+.tasker div img {
+    border-bottom: 1px solid;
+    width: 100%;
 }
 
 #produkt-kategori{
-    background-color: #000;
-    width: 200px; 
-    height: 180px;
-    margin-left: 1em;
-    margin-top: 1em;
     padding: 1em;
     color: white;
    
@@ -381,6 +385,10 @@ button:hover {
 #produkt-kategori li{
     margin-top: 1em;
     list-style-type: none;
+}
+#produkt-kategori #content-container{
+    background-color: black;
+    padding: 1rem;
 }
 #h3-produkt{
     color: #FFA500;
