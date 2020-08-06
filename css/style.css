@@ -332,6 +332,8 @@ button:hover {
 div> ul li{
     cursor: pointer;
 }
+
+
 @media screen and (max-width:768px){
     #product-container {
         display: grid;
