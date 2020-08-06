@@ -1,27 +1,27 @@
-// Vælg alle artikler
-var articles = document.querySelectorAll('.tasker > *');
+// Vælg alle produkter
+var products = document.querySelectorAll('.tasker > *');
 
-// Viser alle farver
+// Viser alle produkter
 document.getElementById('all').addEventListener('click', function() {
-    articles.forEach(article => article.classList.remove('hide'));
+    products.forEach(product => product.classList.remove('hide'));
 });
 
-// Kalder funtion showColor() ved klik på element med id="blue"
-document.getElementById('taske').addEventListener('click', showColor);
+// Kalder funtion showProducts() ved klik på element med id="taske"
+document.getElementById('taske').addEventListener('click', showProducts);
 
-// Kalder funtion showColor() ved klik på element med id="blue"
-document.getElementById('vest').addEventListener('click', showColor);
+// Kalder funtion showProducts() ved klik på element med id="vest"
+document.getElementById('vest').addEventListener('click', showProducts);
 
-// Kalder funtion showColor() ved klik på element med id="green"
-document.getElementById('hylster').addEventListener('click', showColor);
+// Kalder funtion showProducts() ved klik på element med id="hylster"
+document.getElementById('hylster').addEventListener('click', showProducts);
 
-// Viser valgte farve og skjuler øvrige
-function showColor() {
-    articles.forEach((article) => {
-        if (article.classList.contains(`${this.id}`)) {
-            article.classList.remove('hide')
+// Viser valgte produkt og skjuler øvrige
+function showProducts() {
+    products.forEach((product) => {
+        if (product.classList.contains(`${this.id}`)) {
+            product.classList.remove('hide')
         } else {
-            article.classList.add('hide')
+            product.classList.add('hide')
         }
     })
 }
