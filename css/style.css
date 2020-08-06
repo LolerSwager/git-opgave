@@ -397,9 +397,7 @@ div> ul li{
     color: #fff;
     background-color: black;
 }
-.taske ,.hylster, .vest {
-    margin-top: 50px;
-}
+
 /*----------------------------------------- MOBILE  -----------------------------------------*/
 @media (max-width: 1025px) {
     .hero img{
