@@ -2,9 +2,9 @@
 var articles = document.querySelectorAll('.tasker > *');
 
 // Viser alle farver
-// document.getElementById('taske').addEventListener('click', function() {
-//     articles.forEach(article => article.classList.remove('hide'));
-// });
+document.getElementById('all').addEventListener('click', function() {
+    articles.forEach(article => article.classList.remove('hide'));
+});
 
 // Kalder funtion showColor() ved klik på element med id="blue"
 document.getElementById('taske').addEventListener('click', showColor);
