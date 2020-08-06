@@ -1,0 +1,13 @@
+.tasker > * {
+    transition: ease 0.5s;
+}
+
+section article p {
+    margin: 0;
+}
+
+.hide {
+    height: 0;
+    width: 0;
+    opacity: 0
+}
