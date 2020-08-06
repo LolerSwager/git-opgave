@@ -183,7 +183,7 @@ a:hover{
 }
 #form {
     /*Styling*/
-        width: 35rem;
+        width: 800px;
         height: auto;
         padding: 3rem;
         background-color: #FCFCFC;
@@ -200,7 +200,16 @@ a:hover{
             justify-content: center;
             align-items: center;
     }
+    .form-contianer{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+.form-1{
 
+}
+.form-2{
+
+}
 .field {
 /*Styling*/
     width: 100%;
