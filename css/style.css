@@ -354,3 +354,22 @@ button:hover {
     background-color: #000;
     color: #FCFCFC;
 }
+.tasker{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 10em;
+    column-gap: 1em;
+    margin-top: 5em;
+    margin-left: 10em;
+}
+.taske{
+    height: 210px;
+    
+}
+.vest{
+    height: 210px;
+}
+.hylster{
+    height: 210px;
+}
+
