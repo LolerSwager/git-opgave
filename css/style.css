@@ -6,6 +6,7 @@
 
 body {
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
@@ -182,7 +183,7 @@ a:hover{
 }
 #form {
     /*Styling*/
-        width: 55rem;
+        width: 800px;
         height: auto;
         padding: 3rem;
         background-color: #FCFCFC;
@@ -198,6 +199,10 @@ a:hover{
             display: grid;
             justify-content: center;
             align-items: center;
+    }
+    .form-contianer{
+        display: grid;
+        grid-template-columns: auto auto;
     }
 
     .form-container {
@@ -404,9 +409,7 @@ div> ul li{
     color: #fff;
     background-color: black;
 }
-.taske ,.hylster, .vest {
-    margin-top: 50px;
-}
+
 /*----------------------------------------- MOBILE  -----------------------------------------*/
 @media (max-width: 1025px) {
     .hero img{
