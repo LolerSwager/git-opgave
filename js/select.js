@@ -6,16 +6,16 @@ document.getElementById('all').addEventListener('click', function() {
     products.forEach(product => product.classList.remove('hide'));
 });
 
-// Kalder funtion showProducts() ved klik på element med id="taske"
+// Kalder funktion showProducts() ved klik på element med id="taske"
 document.getElementById('taske').addEventListener('click', showProducts);
 
-// Kalder funtion showProducts() ved klik på element med id="vest"
+// Kalder funktion showProducts() ved klik på element med id="vest"
 document.getElementById('vest').addEventListener('click', showProducts);
 
-// Kalder funtion showProducts() ved klik på element med id="hylster"
+// Kalder funktion showProducts() ved klik på element med id="hylster"
 document.getElementById('hylster').addEventListener('click', showProducts);
 
-// Viser valgte produkt og skjuler øvrige
+// Viser valgte produkter og skjuler øvrige
 function showProducts() {
     products.forEach((product) => {
         if (product.classList.contains(`${this.id}`)) {
