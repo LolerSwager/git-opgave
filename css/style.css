@@ -130,7 +130,7 @@ footer{
     width: 100%;
     padding: 2rem;
     background-color: black;
-    margin-top: 400px;
+    margin-top: 100px;
 }
 
 .footer_article {
@@ -191,7 +191,7 @@ a:hover{
     /*Placemet*/
         /*Positioning box*/
             position: relative;
-            top: 200px;
+            top: 50px;
             left: 30%;
             
     /*Placemet*/
