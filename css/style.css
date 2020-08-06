@@ -192,7 +192,7 @@ a:hover{
         /*Positioning box*/
             position: relative;
             top: 200px;
-            left: 37%;
+            left: 30%;
             
     /*Placemet*/
         /*Flex*/
@@ -426,7 +426,37 @@ div> ul li{
         "p3 p3"
         "p4 p5";
     }
+    
+    .tasker>*{
+        width: 44%;
+        margin-bottom: 5em;
+        margin-left: 5%;
+    }
 
+    .koeb-link{
+        margin-left: 5%;
+        text-decoration: none;
+        color: black;
+        background-color:#FFA500 ;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .produkt-priser {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 10%;
+        margin-left: 15%;
+        font-size: larger;
+    }
+    .produkt-priser-salg {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 10%;
+        margin-left: 15%;
+        font-size: larger;
+    }
     .footer_article {
         width: 100%;
         
