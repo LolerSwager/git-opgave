@@ -3,14 +3,8 @@
     margin-right: 0.5%;
 }
 
-section article p {
-    margin: 0;
-}
-
 .hide {
     height: 0;
     width: 0;
     opacity: 0;
-    /* display: none; */
-    margin: 0;
 }
